@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://use.typekit.net/grp4epa.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;800&display=swap" rel="stylesheet">
+    <title>Chrys Burguer</title>
+</head>
+
+<body>
+    <div class="fundo">
+        <div class="title">
+            <h1>CHRYS BURGUER</h1>
+        </div>
+
+
+
+        <div class="container-buttons">
+            <button onclick="mostrarTudo()">Mostrar tudo</button>
+            <button onclick="mapear()">Mapear <br> Map</button>
+            <button onclick="somarTudo()">Somar Tudo <br> Reduce</button>
+            <button onclick="filtrar()">Filtrar <br> Filter</button>
+        </div>
+
+        <div class="total-price-container">
+            <p class="total-price"></p>
+        </div>
+
+
+        <ul>
+            <li class="card">
+                <img src="/assets/xbacon.png">
+                <p class="name-burguer">X-Bacon</p>
+                <p class="item-price">R$ <span>23,00</span></p>
+            </li>
+            <li class="card">
+                <img src="./assets/xsalada.jpeg">
+                <p class="name-burguer">X-Salada</p>
+                <p class="item-price">R$ <span>29,00</span></p>
+            </li>
+            <li class="card vegan">
+                <img src="./assets/monstruoso-vegan.png">
+                <p class="name-burguer">Monstruoso</p>
+                <p class="item-price">R$ <span>24,00</span></p>
+            </li>
+            <li class="card vegan">
+                <img src="./assets/xvegan.png">
+                <p class="name-burguer">X-Vegan</p>
+                <p class="item-price">R$ <span>19,00</span></p>
+            </li>
+            <li class="card">
+                <img src="/assets/bacon-egg.png">
+                <p class="name-burguer">Bacon egg</p>
+                <p class="item-price">R$ <span>30,00</span></p>
+            </li>
+            <li class="card">
+                <img src="./assets/X-Tudo.png">
+                <p class="name-burguer">X-Tudo</p>
+                <p class="item-price">R$ <span>25,00</span></p>
+            </li>
+        </ul>
+    </div>
+</body>
+<script src="./products.js"></script>
+<script src="./scripts.js"></script>
+
+</html>
